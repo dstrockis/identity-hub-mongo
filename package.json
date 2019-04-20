@@ -1,0 +1,19 @@
+{
+  "name": "identity-hub-mongo",
+  "version": "0.0.1",
+  "description": "An identity hub secured using decentralized identities and served over HTTP with a Mongo DB datastore",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "node setup.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@decentralized-identity/did-auth-jose": "^0.1.11",
+    "@decentralized-identity/did-common-typescript": "^0.1.16",
+    "@decentralized-identity/hub-node-core": "^0.1.4",
+    "express": "^4.16.4"
+  }
+}
